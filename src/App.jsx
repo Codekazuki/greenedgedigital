@@ -1,5 +1,5 @@
 function App() {
-  return <>hello</>;
+  return <>Green edge is coming</>;
 }
 
 export default App;
