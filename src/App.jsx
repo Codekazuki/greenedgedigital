@@ -1,5 +1,5 @@
 function App() {
-  return <>Green edge is coming</>;
+  return <>GREATNESS IS LOADING</>;
 }
 
 export default App;
