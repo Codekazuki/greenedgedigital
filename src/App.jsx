@@ -1,5 +1,5 @@
 function App() {
-  return <>GREATNESS IS LOADING</>;
+  return <>GREATNESS IS LOADING ........</>;
 }
 
 export default App;
