@@ -19,6 +19,7 @@ export default function Navbar() {
       <div className='nav-inner container'>
         <div className='brand'>
           <img src={logo} alt='logo' className='logo' />
+          <a href=''>GreenEdge</a>
         </div>
         <nav
           className={`nav ${open ? "open" : ""}`}

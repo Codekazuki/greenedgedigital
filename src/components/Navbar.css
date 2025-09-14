@@ -16,6 +16,14 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  border: 1px solid green;
+  border-radius: 0px 8px 8px 8px;
+  padding: 8px;
+}
+.brand a {
+  color: rgb(47, 93, 47);
+  font-size: larger;
+  font-weight: 600;
 }
 .logo {
   height: 40px;
@@ -36,6 +44,7 @@
   color: var(--accent);
   border-bottom-color: var(--accent);
 }
+
 .actions {
   display: flex;
   align-items: center;
