@@ -1,7 +1,7 @@
 :root {
   --bg: #f8fafc;
   --text: #0f172a;
-  --accent: #0b6efd;
+  --accent: #56d456;
   --muted: #6b7280;
   --surface: #ffffff;
   --border: rgba(15, 23, 42, 0.08);
@@ -10,7 +10,7 @@
 [data-theme="dark"] {
   --bg: #0f172a;
   --text: #f8fafc;
-  --accent: #3b82f6;
+  --accent: #56d456;
   --muted: #94a3b8;
   --surface: #1e293b;
   --border: rgba(255, 255, 255, 0.08);

@@ -1,0 +1,141 @@
+/* Wrapper */
+.hero-wrap {
+  padding: 4rem 1rem;
+
+  background: var(--surface);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Layout row */
+.hero-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* allows stacking on small screens */
+}
+
+/* Left text */
+.hero-left {
+  flex: 1 1 500px;
+}
+
+.hero-content span {
+  display: block;
+  color: var(--text);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  line-height: 1.2;
+  color: var(--text);
+}
+
+.hero-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.hero-btn a {
+  margin-right: 1rem;
+}
+
+/* Buttons */
+.btn.style1 {
+  background: var(--accent);
+  color: var(--text);
+  padding: 0.7rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.btn.style1:hover {
+  background: var(--text);
+  color: var(--surface);
+}
+
+/* Right images */
+.hero-right {
+  flex: 1 1 500px;
+}
+
+.hero-img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap; /* side by side on desktop */
+}
+
+.hero-img-wrap img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: 1 1 100%;
+  }
+
+  /* Stack images vertically on smaller screens */
+  .hero-img-wrap {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .hero-img-wrap img {
+    max-width: 100%;
+  }
+
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-btn a {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .btn.style1 {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
