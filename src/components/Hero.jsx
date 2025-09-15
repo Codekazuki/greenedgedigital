@@ -16,7 +16,7 @@ const Hero = () => {
               <p>
                 We are Nigeria's leading Value Added Service (VAS) company
                 operating and providing Airtime &amp; Data in Nigeria since
-                2012.
+                2024.
               </p>
               <div className='hero-btn'>
                 <a href='vtu.html' className='btn style1'>
