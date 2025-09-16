@@ -1,62 +1,58 @@
 import React from "react";
+import contactimage from "../assets/email.svg";
+
+import "../components/contact.css";
 
 export default function Contact() {
   return (
-    <section className='container' style={{ padding: "2rem 0" }}>
-      <h1>Contact Us</h1>
-      <form
-        style={{
-          marginTop: "1rem",
-          display: "grid",
-          gap: "1rem",
-          maxWidth: "500px",
-        }}
-      >
-        <input
-          type='text'
-          placeholder='Your Name'
-          style={{
-            padding: "0.75rem",
-            border: "1px solid var(--border)",
-            borderRadius: "8px",
-            background: "var(--surface)",
-            color: "var(--text)",
-          }}
-        />
-        <input
-          type='email'
-          placeholder='Your Email'
-          style={{
-            padding: "0.75rem",
-            border: "1px solid var(--border)",
-            borderRadius: "8px",
-            background: "var(--surface)",
-            color: "var(--text)",
-          }}
-        />
-        <textarea
-          placeholder='Message'
-          rows='5'
-          style={{
-            padding: "0.75rem",
-            border: "1px solid var(--border)",
-            borderRadius: "8px",
-            background: "var(--surface)",
-            color: "var(--text)",
-          }}
-        />
-        <button
-          style={{
-            background: "var(--accent)",
-            color: "#fff",
-            border: "none",
-            padding: "0.75rem 1rem",
-            borderRadius: "8px",
-          }}
-        >
-          Send Message
-        </button>
-      </form>
+    <section className='container'>
+      <div className='contact'>
+        <div className='contact-img'>
+          <img className='img2' src={contactimage} alt='Contact' />
+        </div>
+        <form>
+          <h1>
+            <span className='icon'>icon</span>
+            Get In <span className='highlight'>Touch</span>
+          </h1>
+          <div className='input-box'>
+            <label htmlFor='name'>Full Name</label>
+            <input
+              name='from_name'
+              className='field'
+              type='text'
+              id='name'
+              required
+              placeholder='Input your name'
+            />
+          </div>
+          <div className='input-box'>
+            <label htmlFor='email'>Email</label>
+            <input
+              id='email'
+              name='from_email'
+              className='field'
+              type='email'
+              required
+              placeholder='Input your email'
+            />
+          </div>
+
+          <div className='input-box'>
+            <label htmlFor='message'>Message</label>
+            <textarea
+              className='field message'
+              name='message'
+              id='message'
+              required
+              placeholder='Your message'
+            ></textarea>
+          </div>
+          <button className='btn-submit' type='submit'>
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   );
 }
