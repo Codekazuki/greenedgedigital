@@ -9,7 +9,7 @@
 /* Section Headings */
 .about-section h2 {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
-  color: #56d456;
+  color: var(--accent);
   margin-bottom: 15px;
   text-align: center;
 }
@@ -121,7 +121,7 @@
 
 .who-we-are-text p {
   font-size: clamp(1rem, 1.2vw, 1.2rem);
-  color: #333;
+  color: var(--text);
   margin-bottom: 20px;
 }
 
@@ -185,12 +185,9 @@
   margin: 0 auto;
   text-align: center;
   line-height: 1.6;
+  color: var(--text);
 }
 
-.value-card p {
-  font-size: clamp(0.9rem, 1vw, 1rem);
-  color: #444;
-}
 .value-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(86, 212, 86, 0.6); /* glowing green shadow */
