@@ -5,18 +5,21 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Top section (logo behind text) */
+/* Top section (logo + text) */
 .footer-top {
   max-width: 500px;
   margin: 0 auto 40px;
   position: relative;
   text-align: center;
 }
+
 .footer-logo {
-  height: 5rem;
+  height: 3rem;
+  width: 4rem;
 }
 
 .footer-logo-wrap {
+  display: flex;
   position: relative;
 }
 
@@ -38,7 +41,7 @@
   color: #d1d5db;
 }
 
-/* Footer columns (Company → Contact) */
+/* Footer columns */
 .footer-columns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -128,5 +131,14 @@
   .footer-top {
     text-align: center;
     margin: 0 auto 30px;
+  }
+
+  /* ✅ This centers the logo */
+  .footer-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
 }
