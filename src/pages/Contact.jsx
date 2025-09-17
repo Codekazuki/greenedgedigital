@@ -12,7 +12,9 @@ export default function Contact() {
         </div>
         <form>
           <h1>
-            <span className='icon'>icon</span>
+            <span className='icon'>
+              <i class='ri-customer-service-2-line'></i>
+            </span>
             Get In <span className='highlight'>Touch</span>
           </h1>
           <div className='input-box'>
