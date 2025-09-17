@@ -83,6 +83,7 @@ form .input-box .field.message {
 .btn-submit:hover {
   background-color: var(--bg);
   color: var(--accent);
+  border: 1px solid var(--accent);
 }
 
 /* --- Responsive --- */
