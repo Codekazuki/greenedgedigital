@@ -29,30 +29,35 @@ export default function Navbar() {
             to='/'
             end
             className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={() => setOpen(false)}
           >
             Home
           </NavLink>
           <NavLink
             to='/about'
             className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={() => setOpen(false)}
           >
             About
           </NavLink>
           <NavLink
             to='/services'
             className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={() => setOpen(false)}
           >
             Services
           </NavLink>
           <NavLink
             to='/blog'
             className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={() => setOpen(false)}
           >
             Blog
           </NavLink>
           <NavLink
             to='/contact'
             className={({ isActive }) => (isActive ? "active" : "")}
+            onClick={() => setOpen(false)}
           >
             Contact
           </NavLink>

@@ -77,7 +77,9 @@ export default function Footer() {
               <li>
                 <i className='ri-mail-open-fill'></i>
                 <h6>Email</h6>
-                <a href='mailto:info@mobifinng.com'>info@greenedge.com</a>
+                <a href='digitalbusiness@greenedgedigitalng.com'>
+                  digitalbusiness@greenedgedigitalng.com
+                </a>
               </li>
               <li>
                 <i className='ri-phone-fill'></i>

@@ -10,12 +10,13 @@ const About = () => {
           <div className='who-we-are-text'>
             <h2>Who Are We?</h2>
             <p>
-              GreenEdge is the largest, leading, and award-winning partner to
-              all major telcos in Nigeria, including MTN, Airtel, Glo, and
-              9Mobile. Our journey, which started in 2024, has been
-              uninterrupted, transformative, and innovative. Over the years, we
-              have consistently garnered national and regional awards,
-              solidifying our unrivaled position in the telecommunications
+              GreenEdge is a fast-rising, award-winning partner to Nigeria’s
+              leading telecommunications providers, including MTN, Airtel, Glo,
+              and 9Mobile. Since launching in 2024, we have quickly
+              distinguished ourselves through innovation, excellence, and
+              transformative solutions. In a short time, our work has earned
+              national and regional recognition, positioning GreenEdge as one of
+              the most dynamic and trusted names in the telecommunications
               industry.
             </p>
           </div>
@@ -39,8 +40,9 @@ const About = () => {
             <i className='ri-team-fill icon'></i>
             <h3>Collaboration</h3>
             <p>
-              We believe the best ideas and solutions come from working together
-              and fostering strong partnerships.
+              For us, innovation is not a solo journey—it thrives in
+              collaboration, where strong partnerships spark fresh ideas and
+              unlock solutions that shape the future
             </p>
           </div>
 
@@ -49,8 +51,9 @@ const About = () => {
             <i className='ri-macbook-fill icon'></i>
             <h3>Technology</h3>
             <p>
-              We are committed to leveraging technology to continuously improve
-              our products and services.
+              Our commitment is to use technology as a catalyst—constantly
+              enhancing our products and services to meet evolving needs and
+              exceed expectations.
             </p>
           </div>
 
@@ -59,8 +62,8 @@ const About = () => {
             <i className='ri-rocket-fill icon'></i>
             <h3>Innovation</h3>
             <p>
-              We thrive on creativity and innovation, always striving to improve
-              and deliver more value.
+              At our core, we embrace creativity and innovation, continuously
+              evolving to deliver meaningful impact and lasting value.
             </p>
           </div>
         </div>
