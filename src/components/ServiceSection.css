@@ -1,4 +1,5 @@
 /* Wrapper */
+
 .services-wrap {
   padding: 4rem 1rem;
   background: var(--bg);
@@ -19,13 +20,13 @@
   font-size: 2.2rem;
   color: var(--text);
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Great Vibes", cursive;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
 
 .services-header p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-size: 1.1rem;
   color: var(--text);
@@ -41,6 +42,7 @@
 /* Service card */
 .service-card {
   background: var(--bg);
+  font-family: "Great Vibes", cursive;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;

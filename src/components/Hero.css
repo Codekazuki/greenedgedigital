@@ -21,6 +21,7 @@
 }
 
 /* Left text */
+
 .hero-left {
   flex: 1 1 500px;
 }
@@ -31,9 +32,11 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+  font-family: "Almendra Display", cursive;
 }
 
 .hero-content h1 {
+  font-family: "Great Vibes", cursive;
   font-size: 2.5rem;
   margin: 1rem 0;
   line-height: 1.2;
@@ -44,6 +47,7 @@
   margin-bottom: 1.5rem;
   line-height: 1.6;
   color: var(--text);
+  font-family: "Great Vibes", cursive;
 }
 
 .hero-btn a {

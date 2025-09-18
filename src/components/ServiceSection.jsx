@@ -7,7 +7,7 @@ const ServiceSection = () => {
       <div className='container'>
         {/* Section Heading */}
         <div className='services-header'>
-          <h2>Welcome to GreenEdge Services Limited</h2>
+          <h2>Welcome to GreenEdge Digital Innovations Limited</h2>
           <p>Providing Mobile Solutions &amp; Opportunities</p>
         </div>
 

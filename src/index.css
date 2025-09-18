@@ -15,6 +15,7 @@
   --surface: #1e293b;
   --border: rgba(255, 255, 255, 0.08);
 }
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 * {
   box-sizing: border-box;
