@@ -6,21 +6,8 @@ export default function Services() {
     <>
       <section className='services-wrap'>
         <div className='container'>
-          {/* Section Heading */}
-          <div
-            className='services-header'
-            style={{ textAlign: "center", padding: "5px 20px" }}
-          >
-            <h2
-              style={{
-                fontSize: "clamp(1.5rem, 2.5vw, 3rem)",
-                color: "#56d456",
-                marginBottom: "10px",
-                letterSpacing: "5px",
-              }}
-            >
-              Our Services
-            </h2>
+          <div className='services-header'>
+            <h2>Our Services...</h2>
             <p
               style={{
                 maxWidth: "50dvw",
